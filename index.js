@@ -37,7 +37,20 @@ const questions = [
 
 // function to initialize program
 function init() {
- 
+    inquirer
+    .prompt(questions)
+    .then((answers) => {
+        console.log(answers); 
+        fileName = `${answers['title']}-README.md`; 
+        data = generateMarkdown(answers)
+        fs.writeFile(fileName, data, (err) => {
+            if (err) {
+                console.error(err); 
+            } else {
+                console.log('success');
+            }
+        })
+    })
 }
 
 // function call to initialize program
