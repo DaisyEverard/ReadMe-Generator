@@ -3,19 +3,19 @@ function generateMarkdown(data) {
   const {title, description, installation, usage, contributing, 
     tests, license, questions} = data; 
     
-  let mdContent = `# ${title}
-
-  `
+  let mdContent = `# ${title}`
 
   if (description) {
-    mdContent += `## Description
+    mdContent += `
 
-    ${description}
+    ## Description
 
-  `
+    ${description}`
   }
 
-  mdContent += `## Preview
+  mdContent += `
+  
+  ## Preview
 
   <p align="center">
   <img src="YOUR SRC HERE" width="700" alt="screenshot of site">
@@ -28,57 +28,59 @@ function generateMarkdown(data) {
   - Contributing: How to contribute to our project
   - Tests: How to carry out tests on this app
   - Questions: Contact information to send your questions and feeback to
-  
-  `
+  `; 
 
   if (installation) {
-    mdContent += `## Installation
+    mdContent += `
+    
+    
+    ## Installation
 
     To install this project: ${installation}`
   }
 
   if (usage) {
-    mdContent += `## Usage
+    mdContent += `
+    
+    ## Usage
 
-    ${usage}
-  
-    `
+    ${usage}`
   }
 
   if (contributing) {
-    mdContent += `## Contributing
+    mdContent += `
+    
+    ## Contributing
 
     We love to hear that people are enthusatic about our project and want
     to get involved! To contribute:
-    ${contributing}; 
-    
-    `
+    ${contributing};`
   }
 
   if (tests) {
-    mdContent += `## Tests
+    mdContent += `
+    
+    ## Tests
 
     To test the app, please follow these instructions:
-    - ${tests}
-    
-    `
+    - ${tests}`
   }
 
   if (questions) {
-    mdContent += `## Questions
+    mdContent += `
+    
+    ## Questions
 
     If you have any questions or feedback about ${title}, please get in contact 
-    with us at ${questions}
-    
-    `
+    with us at ${questions}`
   }
 
   if (license) {
-    mdContent += `## License
-
-    ${license}
+    mdContent += `
     
-    `
+    ## License
+
+    ${license}`
   }
 
   return mdContent; 
