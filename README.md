@@ -63,6 +63,10 @@ If you have any questions or feedback about this readme generator, please get in
   - [GitHub:](https://github.com/daisyeverard) https://github.com/daisyeverard; 
   - Email: msdeverard@gmail.com
   
+## Credits
+
+Descriptions of what the different licenses mean were not written by me. 
+
 ## License
 
 MIT License
