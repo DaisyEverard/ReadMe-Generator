@@ -6,6 +6,8 @@ function generateMarkdown(data) {
   let mdContent = `# ${title}`
 
 
+
+// description section
   if (description) {
     mdContent += `
 
@@ -14,6 +16,7 @@ function generateMarkdown(data) {
     ${description}`
   }
 
+  // (empty) preview and TOC
   mdContent += `
   
   ## Preview
@@ -24,13 +27,14 @@ function generateMarkdown(data) {
   
   ## Table of Contents
 
-  - Installation: how to install this app and its dependencies
-  - Usage: How this app is used
-  - Contributing: How to contribute to our project
-  - Tests: How to carry out tests on this app
-  - Questions: Contact information to send your questions and feeback to
+  - [Installation:](#installation) how to install this app and its dependencies
+  - [Usage:](#usage) How this app is used
+  - [Contributing:](#contributing) How to contribute to our project
+  - [Tests:](#tests) How to carry out tests on this app
+  - [Questions:](#questions) Contact information to send your questions and feeback to
   `; 
 
+  // installation section
   if (installation) {
     mdContent += `
     
@@ -40,6 +44,7 @@ function generateMarkdown(data) {
     To install this project: ${installation}`
   }
 
+  // usage section
   if (usage) {
     mdContent += `
     
@@ -48,6 +53,7 @@ function generateMarkdown(data) {
     ${usage}`
   }
 
+  // contributing section
   if (contributing) {
     mdContent += `
     
@@ -75,7 +81,7 @@ function generateMarkdown(data) {
     ## Questions
 
     If you have any questions or feedback about ${title}, please get in contact 
-    with us at ${questions}`
+    with us me at  [My GitHub](${questions})`
   }
 
   // add license section
@@ -107,7 +113,7 @@ function generateMarkdown(data) {
        of reuse. Users of software using an MIT License are permitted to use, copy, 
        modify, merge publish, distribute, sublicense and sell copies of the software.
       `
-    } else if (license === "BCD 2-Clause \"Simplified\"") {
+    } else if (license === "BSD 2-Clause \"Simplified\"") {
       mdContent += `
       The Simplified BSD (or BSD 2-clause) license is the simplest BSD license. A 
       licensee of BSD-licensed software can: Use, copy and distribute the unmodified 
