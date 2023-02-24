@@ -9,12 +9,6 @@
 
 * Your GitHub repository containing your application code.
 
-### Technical Acceptance Criteria: 55%
-
-* Satisfies all of the above acceptance criteria plus the following:
-
-	* Uses the [Inquirer package](https://www.npmjs.com/package/inquirer).
-
 ### Repository Quality: 25%
 
 * Repository has a unique name.
