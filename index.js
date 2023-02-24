@@ -30,9 +30,12 @@ const questions = [
     "Eclipse Public", "GNU Affero General Public", "GNU General Public", "GNU Lesser General Public",
     "Mozilla Public", "The Unlicense"],
     message: "What kind of licence are you using?"},
-    {name: "questions",
+    {name: "github",
     type: "input",
-    message: "What is your GitHub URL?"}
+    message: "What is your public GitHub ID (eg johnsmith)?"},
+    {name: "email",
+    type: "input",
+    message: "What is your public email address?"}
 ];
 
 // function to initialize program

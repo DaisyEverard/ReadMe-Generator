@@ -1,37 +1,68 @@
+# README Generator [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  
+## Description
 
-    * When a user chooses a license for their application from a list of options then a badge for that license is added near the top of the README and a notice is added to the section of the README entitled **License** that explains which license the application is covered under
-    * When a user enters their GitHub username then this is added to the section of the README entitled Questions, with a link to their GitHub profile
-    * When a user enters their email address then this is added to the section of the README entitled Questions, with instructions on how to reach them with additional questions
-    * When a user clicks on the links in the **Table of Contents** then they are taken to the corresponding section of the README
+This is a node.js application which generates a readme for your project based on input from questions 
+which are prompted when 'node index.js' is run in the terminal
+  
+## Preview
+
+<p align="center">
+<img src="./assets/preview.jpg" width="500" alt="screenshot of site">
+</p>
+
+## Table of Contents
+
+- [Installation:](#installation) how to install this app and its dependencies
+- [Usage:](#usage) How this app is used
+- [Tech:](#tech) Which technologies were used in creating the app
+- [Contributing:](#contributing) How to contribute to this app
+- [Tests:](#tests) How to carry out tests on this app
+- [Questions:](#questions) Contact information to send your questions and feeback to
 
 
-* A sample README generated using the application must be submitted.
+## Installation
 
-* Your GitHub repository containing your application code.
+To install this project: 
+  
+  - Clone the repository to your computer
+  - open a terminal and run `npm install inquirer`
+  
+## Usage
 
-### Repository Quality: 25%
+To use the readme generator:
 
-* Repository has a unique name.
+  - Install using the instructions in the [installation](#installation) section
+  - Open the terminal and run `node index.js`
+  - Answer the questions
+  - Open the new file ending with `--README.MD`
+  - Add a preview image of your project to a file of your choosing, then add the src
+  - Change the width of the preview to 
 
-* Repository follows best practices for file structure and naming conventions.
+## Tech
 
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+- Javascript
+- Node.js
+- inquirer npm
+- fs npm
+  
+## Contributing
 
-* Repository contains multiple descriptive commit messages.
+This project is currently finished, but you can get in contact with any of the details in the [questions](#questions) section.
+  
+## Tests
 
-* Repository contains a high-quality README with description and a link to walkthrough video.
+To test the app, please follow these instructions:
+  - Open a terminal and run `node index.js`
+  - Answer the questions
+  - A new markdown file should be created. If not, the error will be printed to the terminal
+  
+## Questions
 
+If you have any questions or feedback about this readme generator, please get in contact with me at:
+  - [GitHub:](https://github.com/daisyeverard) https://github.com/daisyeverard; 
+  - Email: msdeverard@gmail.com
+  
+## License
 
-## Review
-
-You are required to submit the following for review:
-
-* A walkthrough video demonstrating the functionality of the application.
-
-* A sample README.md file for a project repository generated using your application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
----
-
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+MIT License
