@@ -1,8 +1,8 @@
-# Title [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+# Title Here [![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
   
   ## Description
 
-  Description
+  This is an example project
   
 ## Preview
 
@@ -23,38 +23,37 @@
 
   To install this project: 
   
-  - Installation
+  - Install the project like this
   
   ## Usage
 
-  Use
+  You can use the project to....
   
   ## Contributing
 
   We love to hear that people are enthusatic about our project and want
   to get involved! To contribute:
   
-  - contribution;
+  - Contribution can be made by...;
   
   ## Tests
 
   To test the app, please follow these instructions:
-  - Tests
+  - Test the app by...
   
   ## Questions
 
-  If you have any questions or feedback about Title, please get in contact 
+  If you have any questions or feedback about Title Here, please get in contact 
   with us me at:
-  - [GitHub:](https://github.com/JohnSmith) https://github.com/JohnSmith; 
-  - Email: email123
+  - [GitHub:](https://github.com/johnsmith) https://github.com/johnsmith; 
+  - Email: email@123.com
   
 ## License
 
-GNU General Public
+Mozilla Public
 <br>
 
-  The GNU General Public License (GNU, GPL, or GPL) is a free software license 
-  originally written by Richard Stallman of the Free Software Foundation, which 
-  guarantees that users are free to use, share, and modify the software without 
-  paying anyone for it.
+  software available under the MPL is available for anyone (including individuals 
+  and companies) to use for any purpose. The MPL only creates obligations for 
+  you if you want to distribute the software outside your organization.
   
