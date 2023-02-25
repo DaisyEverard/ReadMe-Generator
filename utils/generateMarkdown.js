@@ -72,18 +72,19 @@ mdContent += `
 - [Contributing:](#contributing) How to contribute to our project
 - [Tests:](#tests) How to carry out tests on this app
 - [Questions:](#questions) Contact information to send your questions and feeback to
+
 `
 
 // installation section
 if (installation) {
   mdContent += `
-  
   ## Installation
 
   To install this project: 
   
   - ${installation}
-  `
+
+  `.trimStart(); 
 }
 
 // usage section
@@ -92,6 +93,7 @@ if (usage) {
   ## Usage
 
   ${usage}
+
   `
 }
 
