@@ -1,4 +1,4 @@
-# README Generator [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+# README Generator [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
 ## Description
 
@@ -63,6 +63,10 @@ If you have any questions or feedback about this readme generator, please get in
   - [GitHub:](https://github.com/daisyeverard) https://github.com/daisyeverard; 
   - Email: msdeverard@gmail.com
   
+## Credits
+
+Descriptions of what the different licenses mean were not written by me. 
+
 ## License
 
 MIT License
